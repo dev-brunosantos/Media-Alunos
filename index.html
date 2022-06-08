@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     
+     <link rel="stylesheet" href="css/style.css">
+
+     <title>Calculando Média dos Alunos</title>
+     
+</head>
+<body>
+
+     <div class="dados-entrada dados">
+
+          <h1>Insira os dados do(a) Aluno(a):</h1>
+
+          <input type="text" placeholder="Nome do(a) Aluno(a)" id="aluno">
+
+          <div class="aluno-notas">
+               <input type="number" id="bim1" class="notas" placeholder="1º Bimestre">
+               <input type="number" id="bim2" class="notas" placeholder="2º Bimestre">
+               <input type="number" id="bim3" class="notas" placeholder="3º Bimestre">
+               <input type="number" id="bim4" class="notas" placeholder="4º Bimestre">
+          </div>
+
+          <input type="button" value="Calcular" class="calcular">
+
+     </div>
+
+     <div class="dados-saida dados">
+          <h1 id="aluno-nome"></h1>
+
+          <div class="aluno-notas2">
+               
+               <h2 id="nota1" class="notas"></h2>
+               <h2 id="nota2" class="notas"></h2>
+               <h2 id="nota3" class="notas"></h2>
+               <h2 id="nota4" class="notas"></h2>
+
+          </div>
+
+          <h3 id="media"></h3>
+          <h3 id="resultado"></p>
+     </div>
+     
+     <script src="js/main.js"></script>
+
+</body>
+</html>

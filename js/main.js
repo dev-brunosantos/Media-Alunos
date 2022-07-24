@@ -59,3 +59,10 @@ btn.addEventListener('click', ()=> {
     console.log(aluno, notas, soma)
     
 })
+
+document.addEventListener('keydown', (event) => {
+    var tecla = event.keyCode;
+     if(tecla == 13) {
+        
+     }
+})
